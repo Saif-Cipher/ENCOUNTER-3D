@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en" class="is-booting">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Saif Hossain | AI Automation, Web Development &amp; Video</title>
+<meta name="description" content="Saif Hossain builds AI-powered workflows, practical web applications, and digital content systems. Explore automation, websites, video work, and services.">
+<meta name="theme-color" content="#000000">
+
+<link rel="preload" href="public/fonts/anton-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="public/fonts/oswald-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="public/fonts/oswald-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="src/styles/app.css">
+<link rel="stylesheet" href="src/styles/universe.css">
+<link rel="stylesheet" href="src/styles/chrono.css">
+<link rel="stylesheet" href="src/styles/projects.css">
+<link rel="stylesheet" href="src/styles/finale.css"><link rel="stylesheet" href="src/styles/personal.css"><link rel="icon" href="public/saif/icon.svg" type="image/svg+xml">
+</head>
+<body>
+
+<!-- the real heading, for search engines and screen readers; the visible
+     wordmark is drawn on the canvas so video can be clipped inside its letters -->
+<h1 class="sr-only">SAIF HOSSAIN — AI Automation Specialist, Web Developer & Freelance Video Editor.</h1>
+
+<div class="stage-wrap">
+  <canvas id="stage" aria-hidden="true"></canvas><div class="personal-hero"><img id="saifPortrait" src="public/saif/portrait.webp" alt="Saif Hossain"><div class="hero-ground"></div></div><div class="hero-role"><span>AI AUTOMATION SPECIALIST</span><span>WEB DEVELOPER / FREELANCE VIDEO EDITOR</span><a href="#gallery">Explore my work <b>&darr;</b></a></div>
+
+  <!-- ------------------------------------------------------------------ -->
+  <header class="hdr" id="hdr">
+    <svg class="hdr__rule" id="hdrRule" aria-hidden="true" preserveAspectRatio="none">
+      <polyline id="hdrRulePath" fill="none" stroke="currentColor" stroke-width="1.25"
+                vector-effect="non-scaling-stroke"/>
+    </svg>
+
+    <a class="hdr__mark" href="#" aria-label="Saif Hossain, home">
+      <span class="mark-word">SAIF<span class="mark-surname"> HOSSAIN</span></span>
+    </a>
+
+    <span class="hdr__div" aria-hidden="true"></span>
+
+    <p class="hdr__roles">
+      <span>AI Automation</span><span>Web Developer</span><span>Video Editor</span>
+    </p>
+
+    <nav class="hdr__nav" aria-label="Primary">
+      <ul>
+        <li><a href="#" class="is-active" data-nav>Home</a></li>
+        <li><a href="#" data-nav>Work</a></li>
+        <li><a href="#" data-nav>About</a></li>
+        <li><a href="#" data-nav>Tools</a></li>
+        <li><a href="mailto:pixelcraftbysaif@gmail.com">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hdr__meta">
+      <span class="hdr__metaLabel">AUTOMATION / WEB / VIDEO</span>
+      <span class="hdr__pips" aria-hidden="true"><i></i><i></i><i></i></span>
+    </div>
+
+    <button class="hdr__burger" id="burger" aria-expanded="false" aria-controls="menu">
+      <span aria-hidden="true"></span><span aria-hidden="true"></span>
+      <span class="sr-only">Menu</span>
+    </button>
+  </header>
+
+  <!-- ------------------------------------------------------------------ -->
+  <div class="furniture" aria-hidden="true">
+    <p class="welcome" id="welcome">
+      <b class="welcome__dots">•••</b>
+      <span class="welcome__text">Systems. Interfaces. Stories.</span>
+      <b class="welcome__dots">•••</b>
+    </p>
+
+    <p class="chip chip--artist" id="chipArtist"><span>SAIF HOSSAIN</span></p>
+    <p class="chip chip--legend" id="chipLegend"><span>BUILD / CREATE</span></p>
+
+    <div class="arrows arrows--l" id="arrowsL"></div>
+    <div class="arrows arrows--r" id="arrowsR"></div>
+    <!-- only the bottom-right grid remains: the top-left one sat under the
+         navigation and fought with it -->
+    <div class="grid-dots grid-dots--br" id="dotsBR"></div>
+  </div>
+
+  <!-- ------------------------------------------------------------------ -->
+  <nav class="menu" id="menu" aria-label="Primary, expanded" hidden>
+    <ul>
+      <li><a href="#" class="is-active" data-nav>Home</a></li>
+      <li><a href="#" data-nav>Work</a></li>
+      <li><a href="#" data-nav>About</a></li>
+      <li><a href="#" data-nav>Tools</a></li>
+      <li><a href="#" data-nav>Contact</a></li>
+    </ul>
+    <p class="menu__tag">••• Welcome to my world •••</p>
+  </nav>
+
+  <!-- ------------------------------------------------------------------ -->
+  <div class="boot" id="boot">
+    <div class="boot__bar"><i id="bootFill"></i></div>
+    <button class="boot__enter" id="bootEnter" hidden>
+      <span>Enter</span>
+    </button>
+  </div>
+
+  <noscript>
+    <div class="fallback">
+      <p>SAIF HOSSAIN</p>
+      <small>This opening is an animated experience. Please enable JavaScript.</small>
+    </div>
+  </noscript>
+</div>
+
+<main class="flow">
+  <!-- the hero above is position:fixed, so this reserves its scroll height -->
+  <div class="hero-spacer" aria-hidden="true"></div>
+
+  <!-- ==================================================================== -->
+  <!-- Personalized procedural tools universe. -->
+  <section class="universe" id="universe" aria-labelledby="uniTitle"><div class="universe__pin"><canvas id="uniStage" aria-hidden="true"></canvas><header class="universe__title" id="uniTitle"><p class="universe__over">THE TOOLS BEHIND THE WORK</p><h2 class="universe__name">My Creative<br>Universe</h2><p class="universe__sub">Automation / Development / Video</p></header><p class="universe__note">CONNECTED TOOLS.<br>PRACTICAL SYSTEMS.<br>CREATIVE POSSIBILITIES.</p><ul class="sr-only"><li>n8n</li><li>Make</li><li>Airtable</li><li>Vapi</li><li>Twilio</li><li>React</li><li>Next.js</li><li>Supabase</li><li>Claude</li><li>ChatGPT</li><li>Premiere Pro</li><li>After Effects</li></ul></div></section>
+
+  <!-- ==================================================================== -->
+  <section class="chrono" id="chrono" aria-labelledby="chronoTitle">
+    <div class="chrono__pin">
+      <canvas id="chronoStage" aria-hidden="true"></canvas>
+
+      <h2 class="chrono__title" id="chronoTitle">
+        <span>From</span><span>Idea</span><span>To</span><span>Impact</span>
+      </h2>
+      <p class="chrono__rail" aria-hidden="true">
+        <i></i>
+        <span>Ideas</span><span>Experiences</span><span>People</span>
+        <span>Projects</span><span>Me</span>
+        <i></i>
+      </p>
+
+      <p class="chrono__hint" aria-hidden="true">
+        Explore<br>the way<br>I work<i></i>
+      </p>
+      <p class="chrono__note chrono__note--bl" aria-hidden="true">
+        Practical<br>systems.<br>Thoughtful<br>design.
+      </p>
+      <p class="chrono__note chrono__note--br" aria-hidden="true">
+        Understand<br>Build<br>Refine<br>Repeat<i></i>
+      </p>
+
+      <div class="chrono__deck" id="chronoDeck"></div>
+
+      <!-- the figure's own layer, stacked over the deck: he stands in front
+           of the timeline, looking at his journey -->
+      <canvas id="chronoFront" aria-hidden="true"></canvas>
+    </div>
+  </section>
+
+  <!-- ==================================================================== -->
+  <section class="gallery" id="gallery" aria-labelledby="galleryTitle">
+    <div class="gallery__pin">
+      <canvas id="galleryStage" aria-hidden="true"></canvas>
+
+      <div class="gallery__world">
+        <div class="gallery__deck" id="galleryDeck"></div>
+        <img class="gallery__person" id="galleryPerson"
+             src="public/saif/portrait.webp" alt="" draggable="false">
+      </div>
+
+      <h2 class="g-label g-label--projects" id="galleryTitle">Projects</h2>
+      <p class="g-label g-label--ideas" aria-hidden="true">
+        Ideas<br>Interfaces<br>Experiences<br><b>Real Impact</b>
+      </p>
+      <p class="g-label g-label--scroll" aria-hidden="true">
+        Scroll<br>Explore<br>Interact
+      </p>
+      <p class="g-label g-label--real" aria-hidden="true">
+        AUTOMATION<br>WEB<br>VIDEO<br>CREATIVE
+      </p>
+      <p class="g-label g-label--tomorrow" aria-hidden="true">
+        Designing<br>A Brighter<br>Tomorrow
+      </p>
+      <span class="g-label g-label--num" id="galleryNum" aria-hidden="true">01</span>
+    </div>
+  </section>
+
+
+<section class="personal-about" id="about" aria-labelledby="aboutHeading"><div class="section-rule"><span>THE PERSON BEHIND THE SYSTEMS</span><span>SAIF HOSSAIN</span></div><div class="about-intro"><h2 id="aboutHeading">Technology.<br>Meet creativity.</h2><div><p class="about-lead">I build practical digital systems that combine AI, automation, and web development.</p><p>My work spans business workflows, AI voice agents, API integrations, websites, and content systems. I also create promotional and branding videos, bringing technical thinking and visual storytelling into the same process.</p><a class="text-link" href="mailto:pixelcraftbysaif@gmail.com">Let's talk about your project &#8599;</a></div></div><div class="experience"><h3>Experience</h3><article><span>INTERNSHIP / AUTOLINIUM LTD.</span><h4>AI automation & creative production</h4><p class="experience-meta">Chattogram, Bangladesh / Joined 1 December 2025</p><p>Contributed to an n8n-powered voice-agent workflow for Voicium, working with Vapi, Twilio, Google Sheets, and Airtable. Also produced social-media marketing and promotional videos, and contributed to branding, scripts, content, and product documentation.</p></article><article><span>FREELANCE WORK</span><h4>Video editing & brand storytelling</h4><p>Promotional videos, brand advertisements, product videos, explainers, AI-assisted animation, and cinematic social edits. Selected work includes a Square Feet turf promotion and marketing videos for Autolinium.</p><a class="text-link" href="mailto:pixelcraftbysaif@gmail.com?subject=Video%20portfolio%20request">Request selected video work &#8599;</a></article></div></section>
+<section class="personal-services" id="services" aria-labelledby="servicesHeading"><div class="section-rule"><span>WHAT I CAN HELP YOU BUILD</span><span>THREE CONNECTED DISCIPLINES</span></div><h2 id="servicesHeading">Make the work flow.<br>Make the story matter.</h2><div class="service-grid"><article><span>01 / AUTOMATION</span><h3>Systems that<br>connect.</h3><p>Business workflow automation, n8n development, AI and voice-agent workflows, lead qualification, appointment booking, email workflows, and API or CRM integrations.</p><ul><li>n8n / Make / Airtable</li><li>Vapi / Twilio / Google Sheets</li><li>Supabase / API integration</li></ul></article><article><span>02 / WEB DEVELOPMENT</span><h3>Interfaces that<br>work.</h3><p>Business websites, landing pages, web applications, SaaS interfaces, and internal tools connected to the services a business uses.</p><ul><li>React / Next.js / JavaScript</li><li>Node.js / Tailwind CSS</li><li>Vercel / Git / GitHub</li></ul></article><article><span>03 / VIDEO & CREATIVE</span><h3>Stories that<br>move.</h3><p>Freelance editing, brand and product promotions, social-media content, explainers, AI-generated videos, animation, and cinematic edits. Creative categories include kids animation, character-consistent stories, medical-style explainers, situation-based videos, and realistic AI motion.</p><ul><li>Premiere Pro / After Effects</li><li>CapCut / Filmora / Canva</li><li>AI-assisted video production</li></ul></article></div><div class="tool-note"><h3>AI tools in my creative practice</h3><p>ChatGPT   Claude   Gemini   Ollama   Veo 3   Nano Banana   Kling Omni   Runway   Midjourney   Sora   Pika Labs   ElevenLabs</p><span>Tools vary by project and workflow; this is a toolkit, not a proficiency ranking.</span></div></section>
+</main>
+
+<!-- ====================================================================== -->
+<footer class="fin" id="fin" aria-label="Closing">
+  <div class="fin__pin">
+  <h2 class="sr-only">Saif Hossain</h2>
+
+  <div class="fin__stage1" id="finStage1">
+    <canvas id="finBack" aria-hidden="true"></canvas>
+    <canvas id="finMan" aria-hidden="true"></canvas>
+
+    <p class="f-cap f-cap--tl" aria-hidden="true">
+      Ideas<br>Designs<br>Experiences<br>Real Impact
+    </p>
+    <blockquote class="f-cap f-cap--quote">Practical<br>systems.<br>Thoughtful<br>design.</blockquote>
+    <p class="f-cap f-cap--blw" aria-hidden="true">AI<br>Automation<br>Web<br>Video</p>
+    <p class="f-cap f-cap--tr" aria-hidden="true">
+      Same<br>Passion<br>A Brighter<br>Tomorrow
+    </p>
+    <p class="f-cap f-cap--br" aria-hidden="true">AI<br>Web<br>Video<br>Creative</p>
+  </div>
+
+  <div class="fin__dim" id="finDim" aria-hidden="true"></div>
+
+  <!-- the second frame of the finale: slides in from the left on scroll.
+       Dormant until its image exists (see boot6's candidate list). -->
+  <figure class="fin__frame2" id="finFrame2" aria-hidden="true" hidden>
+    <img id="finFrame2Img" alt="" draggable="false" decoding="async"><div class="mobile-close"><p>AI / AUTOMATION / WEB / VIDEO</p><h2>LET'S BUILD<br>SOMETHING<br>USEFUL.</h2><img src="public/saif/robot.webp" alt=""><span>pixelcraftbysaif@gmail.com</span></div>
+  </figure>
+
+  <div class="fin__bar">
+    <a href="mailto:pixelcraftbysaif@gmail.com">Contact</a>
+    <nav class="fin__soc" aria-label="Contact and work"><a href="mailto:pixelcraftbysaif@gmail.com">Email</a><a href="#gallery">Selected work</a><a href="#services">Services</a></nav>
+    <small class="fin__c">&copy; 2026 Saif Hossain &mdash; All rights reserved</small>
+  </div>
+  </div>
+</footer>
+
+<dialog id="projectDialog" aria-labelledby="projectTitle"><button class="dialog-close" aria-label="Close project">&times;</button><img id="projectImage" alt=""><div class="dialog-copy"><p id="projectCategory"></p><h2 id="projectTitle"></h2><p id="projectSummary"></p><ul id="projectTools"></ul><div class="dialog-actions"><a id="projectLink" target="_blank" rel="noopener noreferrer">Visit website &#8599;</a><a id="projectContact" href="mailto:pixelcraftbysaif@gmail.com">Discuss this work &#8599;</a></div></div></dialog><script type="module" src="src/main.js"></script><script type="module" src="src/personal.js"></script>
+</body>
+</html>

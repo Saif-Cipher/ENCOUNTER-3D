@@ -1,0 +1,10 @@
+﻿{
+  "name": "encounter-3d",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Saif Hossain's cinematic portfolio for AI automation, web development, and video production.",
+  "scripts": { "start": "node tools/dev-server.cjs" },
+  "engines": { "node": ">=20" },
+  "repository": { "type": "git", "url": "https://github.com/Saif-Cipher/ENCOUNTER-3D.git" }
+}

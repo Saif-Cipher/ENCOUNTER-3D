@@ -1,0 +1,17 @@
+{
+  "errors": [],
+  "missing": [],
+  "projectTitle": "Time and Tide",
+  "website": "https://t-ime-tide.vercel.app/",
+  "inquiryOnly": true,
+  "contact": "mailto:pixelcraftbysaif@gmail.com",
+  "staleIdentity": false,
+  "overflow": false,
+  "cards": 12,
+  "methodSteps": 6,
+  "toolCards": 12,
+  "mobileMenuNavigation": "#about",
+  "finaleFrame": "public/saif/final-frame.svg",
+  "mobileClosing": "reviewed",
+  "mobileTools": "reviewed"
+}
