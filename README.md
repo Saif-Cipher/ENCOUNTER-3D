@@ -17,7 +17,7 @@ Open http://127.0.0.1:5173. The site must be served over HTTP because it uses ES
 - Personalized animated hero and portrait
 - Live tools universe with a moving light ribbon and particles
 - Six-step interactive working process
-- Twelve project entries with keyboard-accessible detail dialogs
+- Thirteen project entries with keyboard-accessible detail dialogs
 - Supplied website links and project inquiry actions
 - Experience, services, and technical toolkit
 - Personalized closing scenes and confirmed email contact
@@ -47,3 +47,7 @@ Raw reference footage, original photo/video shoot files, temporary screenshots, 
 ## Credits
 
 The cinematic renderer, scene choreography, and retained reference assets are adapted from [gireeshkumarreddy/cinematic-portofilo](https://github.com/gireeshkumarreddy/cinematic-portofilo), source commit `e61ebf780d63c8941469e070fe08bd7d261495f4`. Personal content, portraits, and project artwork belong to Saif's portfolio. This adaptation does not claim original authorship of the upstream renderer or reference artwork. No additional license grant is implied for upstream materials.
+
+## Project thumbnails
+
+The gallery uses the updated artwork supplied for this portfolio. Original thumbnails live in public/saif/thumbnails; project dialogs show those full images. The angled gallery faces are generated with node tools/build-project-cards.mjs. All twelve supplied images are used across thirteen entries, including both AI Video Systems and Lead Qualification & Appointment Booking.

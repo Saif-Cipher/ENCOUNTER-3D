@@ -12,16 +12,16 @@ export const FRAME = [1600, 900];
 
 export const CARDS = [
   { id: 'p01_timeless', title: 'Timeless Experiences',
-    box: [213, 72, 384, 273], depth: 0.45,
+    box: [145, 80, 300, 250], depth: 0.45,
     tint: [0.309, 0.334, 0.382] },
   { id: 'p02_game', title: 'More Than A Game',
     box: [63, 251, 428, 269], depth: 0.25,
     tint: [0.249, 0.267, 0.295] },
   { id: 'p03_build', title: 'Build Without Limits',
-    box: [566, 41, 471, 288], depth: 0.6,
+    box: [445, 40, 350, 260], depth: 0.6,
     tint: [0.414, 0.291, 0.291] },
   { id: 'p04_driven', title: 'Driven by Better Design',
-    box: [998, 95, 460, 377], depth: 0.45,
+    box: [1130, 80, 330, 300], depth: 0.45,
     tint: [0.322, 0.278, 0.261] },
   { id: 'p05_ideas', title: 'Your Ideas In Motion',
     box: [394, 358, 232, 198], depth: 0.8,
@@ -47,6 +47,8 @@ export const CARDS = [
   { id: 'p12_steps', title: 'Small Steps Big Change',
     box: [1139, 478, 325, 234], depth: 0.1,
     tint: [0.31, 0.317, 0.302] },
+  { id: 'p13_booking', title: 'Lead Qualification & Appointment Booking',
+    box: [800, 40, 330, 260], depth: 0.6, tint: [0.3, 0.35, 0.38] },
 ];
 
 CARDS.forEach((c,i)=>{c.title=projects[i].title;});
@@ -75,7 +77,8 @@ export function fitCover(w, h) {
 // Entries: card index -> centre x/y (viewport fractions), width (vw fraction).
 // --------------------------------------------------------------------------
 export const PORTRAIT = new Map([
-  [2, { cx: 0.50, cy: 0.235, w: 0.80 }],   // build
+  [12, { cx: 0.75, cy: 0.14, w: 0.48 }],
+  [2, { cx: 0.25, cy: 0.14, w: 0.48 }],   // build
   [0, { cx: 0.235, cy: 0.385, w: 0.50 }],  // timeless
   [3, { cx: 0.77, cy: 0.39, w: 0.48 }],    // driven
   [6, { cx: 0.325, cy: 0.53, w: 0.29 }],   // food

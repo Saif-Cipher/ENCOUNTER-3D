@@ -1,0 +1,27 @@
+{
+  "errors": [],
+  "missing": [],
+  "galleryProjects": 13,
+  "suppliedThumbnailsUsed": 12,
+  "originalFilesUnchanged": true,
+  "projectPreviews": "13 passed",
+  "booking": "Lead Qualification & Appointment Booking",
+  "newCardVisible": true,
+  "aiVideoSystemsRetained": "Project — AI Video Systems",
+  "mobileOverflow": false,
+  "exactModalMappings": [
+    {
+      "project": "Time and Tide",
+      "thumbnail": "public/saif/thumbnails/time-and-tide.jpg"
+    },
+    {
+      "project": "AI Video Systems",
+      "thumbnail": "public/saif/thumbnails/ai-video-systems.jpg"
+    },
+    {
+      "project": "Lead Qualification & Appointment Booking",
+      "thumbnail": "public/saif/thumbnails/lead-qualification-booking.jpg"
+    }
+  ],
+  "decorativeCaptionOverlap": "cleared"
+}

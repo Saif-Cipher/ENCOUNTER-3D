@@ -1,0 +1,67 @@
+[
+  {
+    "projectId": "p01_timeless",
+    "source": "Watch_on_stone_surface_6fd8a6a1.jpg",
+    "thumbnail": "public/saif/thumbnails/time-and-tide.jpg"
+  },
+  {
+    "projectId": "p02_game",
+    "source": "VOICIUM_AI_voice_agent_workflow_112ae707.jpg",
+    "thumbnail": "public/saif/thumbnails/voicium.jpg"
+  },
+  {
+    "projectId": "p03_build",
+    "source": "Analyst_reviewing_automation_wor…_efa571a5.jpg",
+    "thumbnail": "public/saif/thumbnails/adaptive-hitl.jpg"
+  },
+  {
+    "projectId": "p04_driven",
+    "source": "Sumeri_website_project_thumbnail_a742d4ba.jpg",
+    "thumbnail": "public/saif/thumbnails/sumeri.jpg"
+  },
+  {
+    "projectId": "p05_ideas",
+    "source": "AI_content_publishing_system_f8c955af.jpg",
+    "thumbnail": "public/saif/thumbnails/ai-content-publishing.jpg"
+  },
+  {
+    "projectId": "p06_sound",
+    "source": "AI_lead_generation_workflow_camp…_e6830728.jpg",
+    "thumbnail": "public/saif/thumbnails/lead-generation.jpg"
+  },
+  {
+    "projectId": "p07_food",
+    "source": "Video_production_studio_workstat…_c2e18318.jpg",
+    "thumbnail": "public/saif/thumbnails/neocut-digital.jpg"
+  },
+  {
+    "projectId": "p08_travel",
+    "source": "SI_Enterprise_business_managemen…_71dd623e.jpg",
+    "thumbnail": "public/saif/thumbnails/si-enterprise.jpg"
+  },
+  {
+    "projectId": "p09_space",
+    "source": "Bulk_email_automation_workflow_c0976001.jpg",
+    "thumbnail": "public/saif/thumbnails/bulk-email-automation.jpg"
+  },
+  {
+    "projectId": "p10_play",
+    "source": "Enterprise_automation_workflow_a…_9bab2f62.jpg",
+    "thumbnail": "public/saif/thumbnails/enterprise-automation.jpg"
+  },
+  {
+    "projectId": "p11_cleaner",
+    "source": "Video_editing_workspace_and_equi…_ddacbd42.jpg",
+    "thumbnail": "public/saif/thumbnails/ai-video-systems.jpg"
+  },
+  {
+    "projectId": "p12_steps",
+    "source": "Video_editing_workspace_and_equi…_ddacbd42.jpg",
+    "thumbnail": "public/saif/thumbnails/brand-stories.jpg"
+  },
+  {
+    "projectId": "p13_booking",
+    "source": "Automated_lead_qualification_app…_434329da.jpg",
+    "thumbnail": "public/saif/thumbnails/lead-qualification-booking.jpg"
+  }
+]

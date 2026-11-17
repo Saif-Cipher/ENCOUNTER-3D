@@ -9,3 +9,6 @@ a{color:inherit;text-decoration:none}.hero-role a{color:#e6b29a}.hero-role a:hov
 .gallery__person{mask-image:linear-gradient(to bottom,#000 0 86%,transparent 100%)}
 .mobile-close{display:none}@media(max-width:760px){#finFrame2Img{display:none}.mobile-close{display:block;position:absolute;inset:0;overflow:hidden;background:radial-gradient(ellipse at 85% 60%,#1c2235,transparent 70%),#0f0b10}.mobile-close>p{position:absolute;top:7%;left:7%;font:500 8px var(--ui);letter-spacing:.25em;color:#c99077}.mobile-close h2{position:absolute;top:17%;left:7%;margin:0;font:600 clamp(36px,12vw,62px)/1.1 var(--ui);color:#f6d6be;z-index:2;letter-spacing:-.02em}.mobile-close img{position:absolute;right:-8%;bottom:10%;height:55%;width:90%;object-fit:contain;object-position:100% 100%;opacity:.85}.mobile-close>span{position:absolute;bottom:13%;left:7%;font-size:13px;color:#f1b292;z-index:3;letter-spacing:.02em}}
 @media(max-width:760px){.universe__title{top:4%;width:90%}.universe__name{font-size:21px;line-height:1.1;letter-spacing:.18em}.universe__over{letter-spacing:.28em}.universe__sub{letter-spacing:.12em}}
+/* Keep the supplied thumbnail text clear of decorative gallery captions. */
+.g-label--ideas,.g-label--scroll{display:none}
+.gallery.is-portrait .g-label--real,.gallery.is-portrait .g-label--tomorrow{display:none}
