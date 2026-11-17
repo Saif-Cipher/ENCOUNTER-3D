@@ -34,7 +34,7 @@ Open http://127.0.0.1:5173. The site must be served over HTTP because it uses ES
 - `public/saif/`: personal portraits, illustrations, and project artwork
 - `public/fonts/` and `public/tex/`: self-hosted fonts and textures
 
-The supplied portrait is a still image with an animated entrance and pointer response. The clock presents a working method rather than a dated employment history. Incompletely documented automation entries are labeled explorations; unconfirmed qualifications, project counts, pricing, and social profiles are omitted.
+The supplied character scenes are still images with animated entrances, scene lighting, and pointer response. The clock presents a working method rather than a dated employment history. Incompletely documented automation entries are labeled explorations; unconfirmed qualifications, project counts, pricing, and social profiles are omitted.
 
 Contact: [pixelcraftbysaif@gmail.com](mailto:pixelcraftbysaif@gmail.com).
 
@@ -51,3 +51,7 @@ The cinematic renderer, scene choreography, and retained reference assets are ad
 ## Project thumbnails
 
 The gallery uses the updated artwork supplied for this portfolio. Original thumbnails live in public/saif/thumbnails; project dialogs show those full images. The angled gallery faces are generated with node tools/build-project-cards.mjs. All twelve supplied images are used across thirteen entries, including both AI Video Systems and Lead Qualification & Appointment Booking.
+
+## Section hero images
+
+Five supplied character illustrations are assigned individually: standing pose for home, desktop workstation for tools, laptop scene for the working process, second standing pose for projects, and armchair scene for contact. Original JPEGs are preserved under public/saif/heroes. Browser presentation assets softly blend the scene edges into the cinematic lighting. Regenerate these with node tools/build-section-heroes.mjs; mapping is recorded in docs/hero-mapping.json.

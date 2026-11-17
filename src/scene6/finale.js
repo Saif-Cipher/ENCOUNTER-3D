@@ -29,13 +29,13 @@ export class Finale {
     this.texF = { man: texture(glF), grain: texture(glF, { wrap: 'repeat' }) };
     this.par = { x: 0, y: 0 };
     // the man's box in frame px, from fin.json - set by boot6
-    this.manBox = [580, 170, 450, 730];
+    this.manBox = [535, 80, 560, 840];
   }
 
   async load() {
     const [plate, man, grain] = await Promise.all([
       finalPlate(),
-      loadImage('public/saif/portrait.webp'),
+      loadImage('public/saif/heroes/contact.svg'),
       loadImage('public/tex/grain.png'),
     ]);
     upload(this.back.gl, this.texB.plate, plate);

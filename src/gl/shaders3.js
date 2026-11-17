@@ -343,8 +343,8 @@ void main(){
   float a = s.a;
   if(a <= 0.004) discard;
 
-  // dark, not black: enough base for the suit's folds to exist
-  vec3 col = s.rgb * 0.105 + vec3(0.022, 0.011, 0.007) * a;
+  // Preserve the laptop illustration while adding warm light from the mechanism.
+  vec3 col = s.rgb * 0.72 + vec3(0.022, 0.011, 0.007) * a;
 
   // rim from the matte's own gradient, so it rides his real outline
   vec2 texel = vec2(1.0) / vec2(textureSize(uFig, 0));

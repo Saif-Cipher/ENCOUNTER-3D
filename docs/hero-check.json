@@ -1,0 +1,19 @@
+{
+  "sourceImages": 5,
+  "uniqueSectionHeroRequests": [
+    "/public/saif/heroes/projects.svg",
+    "/public/saif/heroes/home.svg",
+    "/public/saif/heroes/contact.svg",
+    "/public/saif/heroes/tools.svg",
+    "/public/saif/heroes/process.svg"
+  ],
+  "originalFilesUnchanged": true,
+  "errors": [],
+  "missing": [],
+  "homeHero": "public/saif/heroes/home.svg",
+  "projectHero": "public/saif/heroes/projects.svg",
+  "mobileClosingHero": "public/saif/heroes/contact.svg",
+  "galleryProjects": 13,
+  "contact": "mailto:pixelcraftbysaif@gmail.com",
+  "mobileOverflow": false
+}

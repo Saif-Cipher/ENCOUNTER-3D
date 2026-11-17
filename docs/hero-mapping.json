@@ -1,0 +1,42 @@
+[
+  {
+    "section": "home",
+    "source": "Character_standing_in_formal_attire_7959be91.jpg",
+    "image": "public/saif/heroes/home.jpg",
+    "portrait": "public/saif/heroes/home.svg",
+    "focal": 0.53,
+    "description": "Standing in a sunlit office"
+  },
+  {
+    "section": "tools",
+    "source": "Character_working_at_computer_desk_ab6f4753.jpg",
+    "image": "public/saif/heroes/tools.jpg",
+    "portrait": "public/saif/heroes/tools.svg",
+    "focal": 0.6,
+    "description": "Working at a desktop workstation"
+  },
+  {
+    "section": "process",
+    "source": "Character_working_on_laptop_86d1686a.jpg",
+    "image": "public/saif/heroes/process.jpg",
+    "portrait": "public/saif/heroes/process.svg",
+    "focal": 0.46,
+    "description": "Working on a laptop"
+  },
+  {
+    "section": "projects",
+    "source": "Character_standing_in_formal_attire_21f9e406.jpg",
+    "image": "public/saif/heroes/projects.jpg",
+    "portrait": "public/saif/heroes/projects.svg",
+    "focal": 0.51,
+    "description": "Standing in a modern workspace"
+  },
+  {
+    "section": "contact",
+    "source": "Animated_character_sitting_on_ar…_8d3b9439.jpg",
+    "image": "public/saif/heroes/contact.jpg",
+    "portrait": "public/saif/heroes/contact.svg",
+    "focal": 0.5,
+    "description": "Seated in a leather armchair"
+  }
+]

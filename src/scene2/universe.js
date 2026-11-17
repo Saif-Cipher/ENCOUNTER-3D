@@ -80,7 +80,7 @@ export class Universe {
     const gl = this.gl;
     const [grain, fig] = await Promise.all([
       loadImage('public/tex/grain.png'),
-      loadImage('public/saif/portrait.webp'),
+      loadImage('public/saif/heroes/tools.svg'),
     ]);
     upload(gl, this.tex.grain, grain);
     upload(gl, this.tex.figure, fig);

@@ -361,8 +361,8 @@ void main(){
   float a = s.a;
   if(a <= 0.004) discard;
 
-  // he is a silhouette: the photograph's own tone is crushed almost to nothing
-  vec3 col = s.rgb * 0.085;
+  // Keep the supplied workstation illustration readable in the scene lighting.
+  vec3 col = s.rgb * 0.72;
 
   // rim light from the core behind him. Sampling the matte's own gradient means
   // the highlight rides his actual outline instead of a guessed edge band.
