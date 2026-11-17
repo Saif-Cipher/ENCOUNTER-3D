@@ -1,0 +1,217 @@
+{
+  "home": {
+    "width": 1679,
+    "height": 937,
+    "transparentFraction": 0.7722942011399528,
+    "partialFraction": 0.22759329097019304,
+    "bounds": {
+      "0": {
+        "x": 0,
+        "y": 0,
+        "width": 1665,
+        "height": 937,
+        "count": 358232
+      },
+      "8": {
+        "x": 594,
+        "y": 23,
+        "width": 574,
+        "height": 914,
+        "count": 340827
+      },
+      "64": {
+        "x": 595,
+        "y": 24,
+        "width": 572,
+        "height": 913,
+        "count": 338680
+      },
+      "128": {
+        "x": 595,
+        "y": 25,
+        "width": 572,
+        "height": 912,
+        "count": 337328
+      },
+      "240": {
+        "x": 597,
+        "y": 26,
+        "width": 569,
+        "height": 911,
+        "count": 333934
+      }
+    }
+  },
+  "tools": {
+    "width": 1536,
+    "height": 1024,
+    "transparentFraction": 0.673071543375651,
+    "partialFraction": 0.32692845662434894,
+    "bounds": {
+      "0": {
+        "x": 0,
+        "y": 0,
+        "width": 1516,
+        "height": 1024,
+        "count": 514214
+      },
+      "8": {
+        "x": 236,
+        "y": 8,
+        "width": 1125,
+        "height": 1016,
+        "count": 500777
+      },
+      "64": {
+        "x": 237,
+        "y": 10,
+        "width": 1123,
+        "height": 1014,
+        "count": 498055
+      },
+      "128": {
+        "x": 237,
+        "y": 11,
+        "width": 1123,
+        "height": 1013,
+        "count": 496169
+      },
+      "240": {
+        "x": 238,
+        "y": 19,
+        "width": 1121,
+        "height": 1005,
+        "count": 490549
+      }
+    }
+  },
+  "process": {
+    "width": 1620,
+    "height": 971,
+    "transparentFraction": 0.6751764122515925,
+    "partialFraction": 0.3243932054265044,
+    "bounds": {
+      "0": {
+        "x": 41,
+        "y": 0,
+        "width": 1493,
+        "height": 971,
+        "count": 510954
+      },
+      "8": {
+        "x": 296,
+        "y": 2,
+        "width": 1106,
+        "height": 958,
+        "count": 499421
+      },
+      "64": {
+        "x": 297,
+        "y": 5,
+        "width": 1104,
+        "height": 954,
+        "count": 496942
+      },
+      "128": {
+        "x": 297,
+        "y": 5,
+        "width": 1104,
+        "height": 954,
+        "count": 495321
+      },
+      "240": {
+        "x": 298,
+        "y": 6,
+        "width": 1102,
+        "height": 952,
+        "count": 490971
+      }
+    }
+  },
+  "projects": {
+    "width": 1267,
+    "height": 1241,
+    "transparentFraction": 0.6027454499547492,
+    "partialFraction": 0.396642725810524,
+    "bounds": {
+      "0": {
+        "x": 65,
+        "y": 27,
+        "width": 1164,
+        "height": 1199,
+        "count": 624622
+      },
+      "8": {
+        "x": 228,
+        "y": 29,
+        "width": 834,
+        "height": 1194,
+        "count": 615722
+      },
+      "64": {
+        "x": 228,
+        "y": 30,
+        "width": 834,
+        "height": 1193,
+        "count": 613713
+      },
+      "128": {
+        "x": 229,
+        "y": 30,
+        "width": 833,
+        "height": 1193,
+        "count": 612186
+      },
+      "240": {
+        "x": 229,
+        "y": 31,
+        "width": 832,
+        "height": 1191,
+        "count": 608405
+      }
+    }
+  },
+  "contact": {
+    "width": 1679,
+    "height": 937,
+    "transparentFraction": 0.5244126230038589,
+    "partialFraction": 0.47531151019276985,
+    "bounds": {
+      "0": {
+        "x": 0,
+        "y": 6,
+        "width": 1542,
+        "height": 931,
+        "count": 748205
+      },
+      "8": {
+        "x": 186,
+        "y": 9,
+        "width": 1275,
+        "height": 928,
+        "count": 741511
+      },
+      "64": {
+        "x": 187,
+        "y": 9,
+        "width": 1273,
+        "height": 928,
+        "count": 739801
+      },
+      "128": {
+        "x": 187,
+        "y": 9,
+        "width": 1273,
+        "height": 928,
+        "count": 738611
+      },
+      "240": {
+        "x": 188,
+        "y": 10,
+        "width": 1271,
+        "height": 927,
+        "count": 735553
+      }
+    }
+  }
+}

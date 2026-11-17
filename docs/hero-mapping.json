@@ -4,39 +4,89 @@
     "source": "Character_standing_in_formal_attire_7959be91.jpg",
     "image": "public/saif/heroes/home.jpg",
     "portrait": "public/saif/heroes/home.svg",
-    "focal": 0.53,
-    "description": "Standing in a sunlit office"
+    "description": "Standing in a sunlit office",
+    "cutout": "public/saif/heroes/home-cutout.png",
+    "cutoutSize": {
+      "width": 1679,
+      "height": 937
+    },
+    "crop": {
+      "x": 586,
+      "y": 15,
+      "width": 590,
+      "height": 922
+    }
   },
   {
     "section": "tools",
     "source": "Character_working_at_computer_desk_ab6f4753.jpg",
     "image": "public/saif/heroes/tools.jpg",
     "portrait": "public/saif/heroes/tools.svg",
-    "focal": 0.6,
-    "description": "Working at a desktop workstation"
+    "description": "Working at a desktop workstation",
+    "cutout": "public/saif/heroes/tools-cutout.png",
+    "cutoutSize": {
+      "width": 1536,
+      "height": 1024
+    },
+    "crop": {
+      "x": 228,
+      "y": 0,
+      "width": 1141,
+      "height": 1024
+    }
   },
   {
     "section": "process",
     "source": "Character_working_on_laptop_86d1686a.jpg",
     "image": "public/saif/heroes/process.jpg",
     "portrait": "public/saif/heroes/process.svg",
-    "focal": 0.46,
-    "description": "Working on a laptop"
+    "description": "Working on a laptop",
+    "cutout": "public/saif/heroes/process-cutout.png",
+    "cutoutSize": {
+      "width": 1620,
+      "height": 971
+    },
+    "crop": {
+      "x": 288,
+      "y": 0,
+      "width": 1122,
+      "height": 974
+    }
   },
   {
     "section": "projects",
     "source": "Character_standing_in_formal_attire_21f9e406.jpg",
     "image": "public/saif/heroes/projects.jpg",
     "portrait": "public/saif/heroes/projects.svg",
-    "focal": 0.51,
-    "description": "Standing in a modern workspace"
+    "description": "Standing in a modern workspace",
+    "cutout": "public/saif/heroes/projects-cutout.png",
+    "cutoutSize": {
+      "width": 1267,
+      "height": 1241
+    },
+    "crop": {
+      "x": 220,
+      "y": 21,
+      "width": 850,
+      "height": 1210
+    }
   },
   {
     "section": "contact",
     "source": "Animated_character_sitting_on_ar…_8d3b9439.jpg",
     "image": "public/saif/heroes/contact.jpg",
     "portrait": "public/saif/heroes/contact.svg",
-    "focal": 0.5,
-    "description": "Seated in a leather armchair"
+    "description": "Seated in a leather armchair",
+    "cutout": "public/saif/heroes/contact-cutout.png",
+    "cutoutSize": {
+      "width": 1679,
+      "height": 937
+    },
+    "crop": {
+      "x": 178,
+      "y": 1,
+      "width": 1291,
+      "height": 936
+    }
   }
 ]

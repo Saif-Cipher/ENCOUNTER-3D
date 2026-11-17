@@ -1,0 +1,51 @@
+[
+  {
+    "step": "01",
+    "key": "Understand",
+    "slug": "understand",
+    "source": "Understand_goal_and_find_problem_29126657.jpg",
+    "image": "public/saif/process/understand.jpg",
+    "status": "supplied"
+  },
+  {
+    "step": "02",
+    "key": "Map",
+    "slug": "map",
+    "source": "Map_trace_inputs_and_plan_b9cc75a4.jpg",
+    "image": "public/saif/process/map.jpg",
+    "status": "supplied"
+  },
+  {
+    "step": "03",
+    "key": "Build",
+    "slug": "build",
+    "source": null,
+    "image": "public/saif/process/build.png",
+    "status": "generated to match supplied process artwork",
+    "styleReference": "Map_trace_inputs_and_plan_b9cc75a4.jpg"
+  },
+  {
+    "step": "04",
+    "key": "Integrate",
+    "slug": "integrate",
+    "source": "API_and_tool_integration_interface_6383fbb8.jpg",
+    "image": "public/saif/process/integrate.jpg",
+    "status": "supplied"
+  },
+  {
+    "step": "05",
+    "key": "Create",
+    "slug": "create",
+    "source": "Create_content_UI_card_interface_0c34aa95.jpg",
+    "image": "public/saif/process/create.jpg",
+    "status": "supplied"
+  },
+  {
+    "step": "06",
+    "key": "Refine",
+    "slug": "refine",
+    "source": "Dashboard_card_with_analytics_dial_fb96579b.jpg",
+    "image": "public/saif/process/refine.jpg",
+    "status": "supplied"
+  }
+]

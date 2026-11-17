@@ -10,12 +10,12 @@
 // the same maths.
 
 export const YEARS = [
- {year:'01',key:'Understand',lines:['Clarify the goal','Find the real problem'],image:'public/saif/cards/method-0.svg'},
- {year:'02',key:'Map',lines:['Trace the inputs','Plan the handoffs'],image:'public/saif/cards/method-1.svg'},
- {year:'03',key:'Build',lines:['Develop the workflow','Connect the interface'],image:'public/saif/cards/method-2.svg'},
- {year:'04',key:'Integrate',lines:['Connect APIs and tools','Keep people in the loop'],image:'public/saif/cards/method-3.svg'},
- {year:'05',key:'Create',lines:['Shape the story','Produce the content'],image:'public/saif/cards/method-4.svg'},
- {year:'06',key:'Refine',lines:['Test the handoffs','Improve the experience'],image:'public/saif/cards/method-5.svg'},
+ {year:'01',key:'Understand',lines:['Clarify the goal','Find the real problem'],image:'public/saif/process/understand.jpg'},
+ {year:'02',key:'Map',lines:['Trace the inputs','Plan the handoffs'],image:'public/saif/process/map.jpg'},
+ {year:'03',key:'Build',lines:['Develop the workflow','Connect the interface'],image:'public/saif/process/build.png'},
+ {year:'04',key:'Integrate',lines:['Connect APIs and tools','Keep people in the loop'],image:'public/saif/process/integrate.jpg'},
+ {year:'05',key:'Create',lines:['Shape the story','Produce the content'],image:'public/saif/process/create.jpg'},
+ {year:'06',key:'Refine',lines:['Test the handoffs','Improve the experience'],image:'public/saif/process/refine.jpg'},
 ];
 
 // measured in the 1280x720 reference, stored as fractions of the frame

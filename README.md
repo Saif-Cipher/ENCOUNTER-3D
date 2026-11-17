@@ -54,4 +54,8 @@ The gallery uses the updated artwork supplied for this portfolio. Original thumb
 
 ## Section hero images
 
-Five supplied character illustrations are assigned individually: standing pose for home, desktop workstation for tools, laptop scene for the working process, second standing pose for projects, and armchair scene for contact. Original JPEGs are preserved under public/saif/heroes. Browser presentation assets softly blend the scene edges into the cinematic lighting. Regenerate these with node tools/build-section-heroes.mjs; mapping is recorded in docs/hero-mapping.json.
+Five supplied character illustrations are assigned individually: standing pose for home, desktop workstation for tools, laptop scene for the working process, second standing pose for projects, and armchair scene for contact. Original JPEGs are preserved under public/saif/heroes. The visible assets now use transparent PNG cutouts; SVG presentation files frame the subject and soften only the bottom edge. No room scenery is used in the hero scenes or closing composition. Regenerate presentations with node tools/build-section-heroes.mjs; mapping and crop geometry are recorded in docs/hero-mapping.json.
+
+## Process artwork review
+
+The five supplied Process images are mapped to Understand, Map, Integrate, Create, and Refine, and shown at their full aspect ratio. Build uses a matching illustration generated from the Map image's visual style, completing all six steps. Mapping and asset provenance: docs/process-mapping.json. The desktop and mobile preview was reviewed and approved by the user before publication.

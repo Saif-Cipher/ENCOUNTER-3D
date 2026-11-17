@@ -1,0 +1,64 @@
+{
+  "localOnly": true,
+  "errors": [],
+  "missing": [],
+  "processCards": [
+    {
+      "key": "01 — Understand",
+      "src": "public/saif/process/understand.jpg",
+      "width": 1376,
+      "height": 768
+    },
+    {
+      "key": "02 — Map",
+      "src": "public/saif/process/map.jpg",
+      "width": 1376,
+      "height": 768
+    },
+    {
+      "key": "03 — Build",
+      "src": "public/saif/process/build.png",
+      "width": 1679,
+      "height": 937
+    },
+    {
+      "key": "04 — Integrate",
+      "src": "public/saif/process/integrate.jpg",
+      "width": 1376,
+      "height": 768
+    },
+    {
+      "key": "05 — Create",
+      "src": "public/saif/process/create.jpg",
+      "width": 1376,
+      "height": 768
+    },
+    {
+      "key": "06 — Refine",
+      "src": "public/saif/process/refine.jpg",
+      "width": 1376,
+      "height": 768
+    }
+  ],
+  "viewports": [
+    {
+      "viewport": 1440,
+      "src": "public/saif/process/build.png",
+      "width": 1679,
+      "height": 937,
+      "renderedWidth": 221.93017578125,
+      "renderedHeight": 135.7230224609375,
+      "overflow": false
+    },
+    {
+      "viewport": 390,
+      "src": "public/saif/process/build.png",
+      "width": 1679,
+      "height": 937,
+      "renderedWidth": 226.1999969482422,
+      "renderedHeight": 126.25,
+      "overflow": false
+    }
+  ],
+  "allSixImagesLoaded": true
+}

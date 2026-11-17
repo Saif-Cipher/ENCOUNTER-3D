@@ -25,7 +25,7 @@ export async function initFinale() {
   const fin = new Finale(back, glB, front, glF);
   try {
     const meta = await fetch('public/fin/fin.json').then((r) => r.json());
-    fin.manBox = [535, 80, 560, 840];
+    fin.manBox = [238, 80, 1152, 840];
   } catch { /* the default box matches the shipped extraction */ }
   await fin.load();
 

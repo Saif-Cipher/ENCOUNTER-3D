@@ -1,0 +1,66 @@
+{
+  "errors": [],
+  "missing": [],
+  "processCards": [
+    {
+      "key": "01 — Understand",
+      "src": "public/saif/process/understand.jpg",
+      "width": 1376,
+      "height": 768
+    },
+    {
+      "key": "02 — Map",
+      "src": "public/saif/process/map.jpg",
+      "width": 1376,
+      "height": 768
+    },
+    {
+      "key": "03 — Build",
+      "src": "public/saif/process/build.png",
+      "width": 1679,
+      "height": 937
+    },
+    {
+      "key": "04 — Integrate",
+      "src": "public/saif/process/integrate.jpg",
+      "width": 1376,
+      "height": 768
+    },
+    {
+      "key": "05 — Create",
+      "src": "public/saif/process/create.jpg",
+      "width": 1376,
+      "height": 768
+    },
+    {
+      "key": "06 — Refine",
+      "src": "public/saif/process/refine.jpg",
+      "width": 1376,
+      "height": 768
+    }
+  ],
+  "suppliedProcessImages": 5,
+  "awaitingImage": [],
+  "originalsIntact": true,
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "overflow": false
+    }
+  ],
+  "galleryProjects": 13,
+  "generatedProcessImages": 1,
+  "verificationScope": "Local desktop and mobile preview, approved by the user before publication"
+}
